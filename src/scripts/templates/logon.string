@@ -1,0 +1,11 @@
+<div class="m-my">
+  <header>
+    <ul>
+      <li action-type="back.tab"><i class="yo-ico">&#xe60c;</i></li>
+      <li>我的</li>
+   </ul>
+  </header>
+  <section spa-widget = "scroll">
+    dfsgsdfsdg
+  </section>
+</div>

@@ -1,0 +1,38 @@
+.m-my{
+  @include flexbox();
+  @include flex-direction(column);
+  height: 100%;
+  > * {
+    width: 100%;
+  }
+  header{
+    background:#45b97c;
+    height: .44rem;
+    ul {
+      @include flexbox();
+      height: 100%;
+      li {
+        height: 100%;
+        width: 100%;
+        @include flexbox();//定义为盒
+        @include justify-content(center);//水平方向
+        @include align-items(center);//垂直方向
+        color: #fff;
+        &:nth-child(1) {
+          width: .44rem;
+          color: #fff;
+          font-size:.3rem;
+        }
+        &:nth-child(2){
+          @include flex(1);
+          font-size: .14rem;
+        }
+      }
+    }
+  }
+  section{
+    height: 100%;
+    width: 100%;
+
+  }
+}
